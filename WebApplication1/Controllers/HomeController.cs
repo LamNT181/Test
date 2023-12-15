@@ -20,6 +20,7 @@ namespace WebApplication1.Controllers
         public IActionResult Create()
         {
             var a=0;
+            var b=a+8;
             return View();
         }
         public IActionResult Privacy()
